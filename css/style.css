@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #D5E1EF;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+}
+.card{
+    width: 256px;
+    height: 399px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%; left: 40%;
+    transform: translateY(-50%);
+    border-radius: 15px;
+}
+.content{
+    margin: 13px;
+}
+.img{
+    width: 230px;
+    height: 231px;
+    background-image: url("../design/images/image-qr-code.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+.data{
+    margin-top: 20px;
+}
+.data h1{
+    font-size: 18px;
+    color: #222B3A;
+    text-align: center;
+    font-weight: 700;
+}
+.data p{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    margin-top: 10px;
+}
+@media only screen and (max-width: 800px){
+    .card{
+        top: 20%; left: 35%;
+    }
+}
+@media only screen and (max-width: 428px){
+    .card{
+        top: 30%; left: 20%;
+    }
+}
+@media only screen and (max-width: 375px){
+    .card{
+        top: 35%; left: 17%;
+    }
+}
+@media only screen and (max-width: 390px){
+    .card{
+        top: 35%; left: 18%;
+    }
+}
+@media only screen and (max-width: 810px){
+    .card{
+        top: 28%; left: 35%;
+    }
+}
+@media only screen and (max-width: 384px){
+    .card{
+        top: 35%; left: 17%;
+    }
+}
+@media only screen and (max-width: 412px){
+    .card{
+        top: 32%; left: 20%;
+    }
+}
+@media only screen and (max-width: 360px){
+    .card{
+        top: 35%; left: 15%;
+    }
+}
