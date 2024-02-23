@@ -15,7 +15,6 @@ body{
     top: 50%; left: 40%;
     transform: translateY(-50%);
     border-radius: 15px;
-    margin-top: 5%;
 }
 .content{
     margin: 13px;
